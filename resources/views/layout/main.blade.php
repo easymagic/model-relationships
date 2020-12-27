@@ -70,7 +70,7 @@
 
 
                     <div class="dropdown-divider"></div>
-                    <a href="" class="dropdown-item">
+                    <a href="{{ route('logout') }}" class="dropdown-item">
                         Log-Out
                     </a>
                 </div>

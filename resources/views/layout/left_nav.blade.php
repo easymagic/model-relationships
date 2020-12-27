@@ -29,14 +29,44 @@
                 {{--<li class="nav-header">Dashboard</li>--}}
 
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="{{ route('continent.index') }}" class="nav-link">
                         <i class="nav-icon far fa-calendar-alt"></i>
                         <p>
-                           Categories
+                           Continents
                         </p>
                     </a>
                 </li>
 
+
+
+                <li class="nav-item">
+                    <a href="{{ route('country.index') }}" class="nav-link">
+                        <i class="nav-icon far fa-calendar-alt"></i>
+                        <p>
+                            Countries
+                        </p>
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a href="{{ route('state.index') }}" class="nav-link">
+                        <i class="nav-icon far fa-calendar-alt"></i>
+                        <p>
+                            States
+                        </p>
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a href="{{ route('city.index') }}" class="nav-link">
+                        <i class="nav-icon far fa-calendar-alt"></i>
+                        <p>
+                            Cities
+                        </p>
+                    </a>
+                </li>
 
             </ul>
         </nav>
